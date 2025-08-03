@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buka YouTube</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .kotak {
+      width: 120px;
+      height: 120px;
+      background-color: white;
+      border-radius: 20px;
+      font-weight: bold;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .kotak:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="kotak" onclick="window.open('https://www.youtube.com/', '_blank')">
+    YouTube
+  </div>
+
+</body>
+</html>
